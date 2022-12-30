@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab0db4c24bd4602a27fdc69dada6e00, type: 3}
+  m_Name: CurrentThemeObject
+  m_EditorClassIdentifier: 
+  primaryColor: {r: 1, g: 0.8078432, b: 0, a: 1}
+  secondaryColor: {r: 0.6509804, g: 0.42352945, b: 0.3254902, a: 1}
+  accentColor: {r: 0.9056604, g: 0.15897354, b: 0.071769245, a: 1}
+  backgroundColor: {r: 0.2509804, g: 0.2627451, b: 0.28235295, a: 1}
+  whiteColor: {r: 1, g: 1, b: 1, a: 1}
+  disabledComponentSaturationReduction: 0.757
+  lightShadeRatio: 0.318
+  midDarkShadeRatio: 0.302
+  lowDarkShadeRatio: 0

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "321006679194",
+    "firebase_url": "https://chili-metaverse-c8684-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "chili-metaverse-c8684",
+    "storage_bucket": "chili-metaverse-c8684.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321006679194:android:18c014d2baab5b4e805b23",
+        "android_client_info": {
+          "package_name": "com.CHILI.CHILIXR"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321006679194-76n0megj28rmcdur0v6dfh7qsiceaq5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsi8g1cFhNqskmFn1eOkje_yGUnZadTZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321006679194-76n0megj28rmcdur0v6dfh7qsiceaq5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

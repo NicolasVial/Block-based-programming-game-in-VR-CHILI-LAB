@@ -1,0 +1,360 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 Unity.Multiplayer.Tools.NetStatsMonitor.SmoothingMethod Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::get_SmoothingMethod()
+extern void CounterConfiguration_get_SmoothingMethod_mAD9ACD4A62B454D0A7B7199322925AD13BFE5986 (void);
+// 0x00000002 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::set_SmoothingMethod(Unity.Multiplayer.Tools.NetStatsMonitor.SmoothingMethod)
+extern void CounterConfiguration_set_SmoothingMethod_mFC29690FFF7EEF6F7BD71C6B556C0560A2FF2513 (void);
+// 0x00000003 Unity.Multiplayer.Tools.NetStatsMonitor.AggregationMethod Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::get_AggregationMethod()
+extern void CounterConfiguration_get_AggregationMethod_mEFF50BB833704CCB82238FB60FE84AA825F13EEB (void);
+// 0x00000004 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::set_AggregationMethod(Unity.Multiplayer.Tools.NetStatsMonitor.AggregationMethod)
+extern void CounterConfiguration_set_AggregationMethod_m03D41CD2BC4A70A80D8A30F302E73C002990FBFB (void);
+// 0x00000005 System.Int32 Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::get_SignificantDigits()
+extern void CounterConfiguration_get_SignificantDigits_m5AB3A305C918CC05FFE8050D34D85FEBF0E52F74 (void);
+// 0x00000006 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::set_SignificantDigits(System.Int32)
+extern void CounterConfiguration_set_SignificantDigits_mCA91F38BC0DE9A512307D089822E6B5735976DB1 (void);
+// 0x00000007 System.Single Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::get_HighlightLowerBound()
+extern void CounterConfiguration_get_HighlightLowerBound_m506DCF0B7F4A6F5859C2C64ED6F77F94E6745FA3 (void);
+// 0x00000008 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::set_HighlightLowerBound(System.Single)
+extern void CounterConfiguration_set_HighlightLowerBound_m6260DAA5D432C7B1238B8D36A0A8BFDC02655ECC (void);
+// 0x00000009 System.Single Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::get_HighlightUpperBound()
+extern void CounterConfiguration_get_HighlightUpperBound_m8F282B44F158E7234DBFEC3EB02D0C5E715DA3D0 (void);
+// 0x0000000A System.Void Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::set_HighlightUpperBound(System.Single)
+extern void CounterConfiguration_set_HighlightUpperBound_m216E4FE69B4E1BCEFCCD1B3550F0D3A16F23DFFA (void);
+// 0x0000000B Unity.Multiplayer.Tools.NetStatsMonitor.ExponentialMovingAverageParams Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::get_ExponentialMovingAverageParams()
+extern void CounterConfiguration_get_ExponentialMovingAverageParams_m4B0D3ACB2181AA295A273C819B766FC2146EECE1 (void);
+// 0x0000000C System.Void Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::set_ExponentialMovingAverageParams(Unity.Multiplayer.Tools.NetStatsMonitor.ExponentialMovingAverageParams)
+extern void CounterConfiguration_set_ExponentialMovingAverageParams_mAAC0E479E38FD6009D436C9446D9172B5CB05720 (void);
+// 0x0000000D Unity.Multiplayer.Tools.NetStatsMonitor.SimpleMovingAverageParams Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::get_SimpleMovingAverageParams()
+extern void CounterConfiguration_get_SimpleMovingAverageParams_mFF64C1BA984C379B67D10CE8AAF08E0B53503E8F (void);
+// 0x0000000E System.Void Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::set_SimpleMovingAverageParams(Unity.Multiplayer.Tools.NetStatsMonitor.SimpleMovingAverageParams)
+extern void CounterConfiguration_set_SimpleMovingAverageParams_mF650DFDDDDC691E3C5DC2736F1EF61E6B5FA569A (void);
+// 0x0000000F System.Int32 Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::get_SampleCount()
+extern void CounterConfiguration_get_SampleCount_mB14C3FAAD133428F3D87F53993548804B2D4F689 (void);
+// 0x00000010 System.Int32 Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::ComputeHashCode()
+extern void CounterConfiguration_ComputeHashCode_mC1ECF7C254DF499FACBFD9072F092606B219FFC6 (void);
+// 0x00000011 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration::.ctor()
+extern void CounterConfiguration__ctor_m76FB9B96E07F147B59F16768CEA3D4FAF42AF838 (void);
+// 0x00000012 System.Double Unity.Multiplayer.Tools.NetStatsMonitor.ExponentialMovingAverageParams::get_HalfLife()
+extern void ExponentialMovingAverageParams_get_HalfLife_m0C5294064B18EC57BA21C300A7BADFFE36CB5704 (void);
+// 0x00000013 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.ExponentialMovingAverageParams::set_HalfLife(System.Double)
+extern void ExponentialMovingAverageParams_set_HalfLife_mA4D9020AF992DFAF8CDF739CEEFA7DEB8B256C96 (void);
+// 0x00000014 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.ExponentialMovingAverageParams::.ctor()
+extern void ExponentialMovingAverageParams__ctor_m385FB919E219B21A62F9FE140CFEB0A639CDAC79 (void);
+// 0x00000015 System.Int32 Unity.Multiplayer.Tools.NetStatsMonitor.SimpleMovingAverageParams::get_SampleCount()
+extern void SimpleMovingAverageParams_get_SampleCount_mFE6B03BA04B59F730E3A5E5AF3CE99BBBAC8F6B3 (void);
+// 0x00000016 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.SimpleMovingAverageParams::set_SampleCount(System.Int32)
+extern void SimpleMovingAverageParams_set_SampleCount_m9AEC836E57B23B35B45E8C67A9A7B7ECA59BBFCD (void);
+// 0x00000017 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.SimpleMovingAverageParams::.ctor()
+extern void SimpleMovingAverageParams__ctor_m98CF5466467A8C9DA1D9F773944AF5E449A00815 (void);
+// 0x00000018 System.Boolean Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::get_FieldsInitialized()
+extern void DisplayElementConfiguration_get_FieldsInitialized_m3240BA4069F366232222D8FC83BE02F52034B37A (void);
+// 0x00000019 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::set_FieldsInitialized(System.Boolean)
+extern void DisplayElementConfiguration_set_FieldsInitialized_m946F955ADC4D5EF62F17C636D4E48F3647757D48 (void);
+// 0x0000001A Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementType Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::get_Type()
+extern void DisplayElementConfiguration_get_Type_mC93467629B0671750822BC0792787D02B3F75127 (void);
+// 0x0000001B System.Void Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::set_Type(Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementType)
+extern void DisplayElementConfiguration_set_Type_m106E36F629F19361113B64C813E70A8E385F6215 (void);
+// 0x0000001C System.String Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::get_Label()
+extern void DisplayElementConfiguration_get_Label_m8FF8F74F1E32B7F040796D32E57E366F9C665942 (void);
+// 0x0000001D System.Void Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::set_Label(System.String)
+extern void DisplayElementConfiguration_set_Label_m41DE9A2B18AA14AAB9E26AF58A6E9E19881DC036 (void);
+// 0x0000001E System.Collections.Generic.List`1<Unity.Multiplayer.Tools.NetStats.MetricId> Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::get_Stats()
+extern void DisplayElementConfiguration_get_Stats_mF9188A6F2E9E3FFD24B6C2E2DFBEA4D042B0678C (void);
+// 0x0000001F System.Void Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::set_Stats(System.Collections.Generic.List`1<Unity.Multiplayer.Tools.NetStats.MetricId>)
+extern void DisplayElementConfiguration_set_Stats_m6CA42A3E370661047B89C1B06BAA9048B512B603 (void);
+// 0x00000020 Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::get_CounterConfiguration()
+extern void DisplayElementConfiguration_get_CounterConfiguration_mE01D58939859B333AD21D9974ABB5C334E34291F (void);
+// 0x00000021 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::set_CounterConfiguration(Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration)
+extern void DisplayElementConfiguration_set_CounterConfiguration_mF61C709BD87FE01731F4217A69EFC2192181EF61 (void);
+// 0x00000022 Unity.Multiplayer.Tools.NetStatsMonitor.GraphConfiguration Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::get_GraphConfiguration()
+extern void DisplayElementConfiguration_get_GraphConfiguration_m67AA8FDB5FA47CFDECDB176FB1B12852125942C7 (void);
+// 0x00000023 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::set_GraphConfiguration(Unity.Multiplayer.Tools.NetStatsMonitor.GraphConfiguration)
+extern void DisplayElementConfiguration_set_GraphConfiguration_mA92B700B31E2108D86B3F09557DDE1105DA4E0CA (void);
+// 0x00000024 System.Int32 Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::get_SampleCount()
+extern void DisplayElementConfiguration_get_SampleCount_m8A96A629B79CC2A0C6F61AC350EC6B7123192EC2 (void);
+// 0x00000025 System.Nullable`1<System.Double> Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::get_HalfLife()
+extern void DisplayElementConfiguration_get_HalfLife_mFAF461DDAA39C681A91A11F3330254B29B6E0247 (void);
+// 0x00000026 System.Nullable`1<System.Double> Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::get_DecayConstant()
+extern void DisplayElementConfiguration_get_DecayConstant_mEED35693718A9786B41E6666FDCF609898045AAF (void);
+// 0x00000027 System.Collections.Generic.List`1<Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration/SerializedStat> Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::get_SerializedStats()
+extern void DisplayElementConfiguration_get_SerializedStats_m7CA08ABD9546BD5B5D08E50B8776BDFB9253A02B (void);
+// 0x00000028 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::set_SerializedStats(System.Collections.Generic.List`1<Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration/SerializedStat>)
+extern void DisplayElementConfiguration_set_SerializedStats_m7069D1864B790A2B6C94BBCD430714E6CED63D5B (void);
+// 0x00000029 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::OnBeforeSerialize()
+extern void DisplayElementConfiguration_OnBeforeSerialize_mDBCECB79D00D8BFC3F8FF5293A4F46F9DC1AFBB7 (void);
+// 0x0000002A System.Void Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::OnAfterDeserialize()
+extern void DisplayElementConfiguration_OnAfterDeserialize_m5F9ED1BED2802D4473422CF8070A4AE2136946C1 (void);
+// 0x0000002B System.Int32 Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::ComputeHashCode()
+extern void DisplayElementConfiguration_ComputeHashCode_m803AF21AD569DD6FEDFA245F919C20A9C3803DFB (void);
+// 0x0000002C System.Void Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration::.ctor()
+extern void DisplayElementConfiguration__ctor_mC23B427F090A04BADFB68D79307264A1542517C1 (void);
+// 0x0000002D System.String Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration/SerializedStat::get_TypeName()
+extern void SerializedStat_get_TypeName_m5FDC9F197A8C97B3EC886DBC065C66DC168D40BB (void);
+// 0x0000002E System.Void Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration/SerializedStat::set_TypeName(System.String)
+extern void SerializedStat_set_TypeName_m5C1AC8944B115873D8C3FE9DEEE74D2FF77456DD (void);
+// 0x0000002F System.String Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration/SerializedStat::get_ValueName()
+extern void SerializedStat_get_ValueName_m659D563C62ED661F656CD6B8BD93443C2D0DB22B (void);
+// 0x00000030 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration/SerializedStat::set_ValueName(System.String)
+extern void SerializedStat_set_ValueName_mFDBF8BA68AE6224FEAA2E13FC107C81EBDDE359E (void);
+// 0x00000031 System.Int32 Unity.Multiplayer.Tools.NetStatsMonitor.GraphConfiguration::get_SampleCount()
+extern void GraphConfiguration_get_SampleCount_m8D707E154599E5C33EAE25F80C651E4F5503EEFF (void);
+// 0x00000032 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.GraphConfiguration::set_SampleCount(System.Int32)
+extern void GraphConfiguration_set_SampleCount_m41A18A632BB119D9BC85FA2F21EDABBA40B67A27 (void);
+// 0x00000033 System.Collections.Generic.List`1<UnityEngine.Color> Unity.Multiplayer.Tools.NetStatsMonitor.GraphConfiguration::get_VariableColors()
+extern void GraphConfiguration_get_VariableColors_mC1D1B3BE4B4901E8C4162BAEAFE4CD98B43FB241 (void);
+// 0x00000034 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.GraphConfiguration::set_VariableColors(System.Collections.Generic.List`1<UnityEngine.Color>)
+extern void GraphConfiguration_set_VariableColors_m0DB78E1ED53DB725D02F0D673F1E6986B93390D5 (void);
+// 0x00000035 Unity.Multiplayer.Tools.NetStatsMonitor.GraphXAxisType Unity.Multiplayer.Tools.NetStatsMonitor.GraphConfiguration::get_XAxisType()
+extern void GraphConfiguration_get_XAxisType_m6619D9DF38D605918E2AFD9BDEAB62DA49773046 (void);
+// 0x00000036 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.GraphConfiguration::set_XAxisType(Unity.Multiplayer.Tools.NetStatsMonitor.GraphXAxisType)
+extern void GraphConfiguration_set_XAxisType_mAE98EE521933CD3FD162C5366DE3205AC6A0E134 (void);
+// 0x00000037 Unity.Multiplayer.Tools.NetStatsMonitor.LineGraphConfiguration Unity.Multiplayer.Tools.NetStatsMonitor.GraphConfiguration::get_LineGraphConfiguration()
+extern void GraphConfiguration_get_LineGraphConfiguration_mDBDDB257B7709DF39843F1D5892F27386254F9E8 (void);
+// 0x00000038 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.GraphConfiguration::set_LineGraphConfiguration(Unity.Multiplayer.Tools.NetStatsMonitor.LineGraphConfiguration)
+extern void GraphConfiguration_set_LineGraphConfiguration_mB1DB4A081A495BE983E1621FCE733AD5F853C75C (void);
+// 0x00000039 System.Int32 Unity.Multiplayer.Tools.NetStatsMonitor.GraphConfiguration::ComputeHashCode()
+extern void GraphConfiguration_ComputeHashCode_mB9B1A333E3850EA09818BCB8427CA1485F7999A7 (void);
+// 0x0000003A System.Void Unity.Multiplayer.Tools.NetStatsMonitor.GraphConfiguration::.ctor()
+extern void GraphConfiguration__ctor_m57A3BF8B47833FD005ED71D1BD824B26105C612B (void);
+// 0x0000003B System.Single Unity.Multiplayer.Tools.NetStatsMonitor.LineGraphConfiguration::get_LineThickness()
+extern void LineGraphConfiguration_get_LineThickness_m6F800AFB9DF95C2F07BCA851C2A31B733573E283 (void);
+// 0x0000003C System.Void Unity.Multiplayer.Tools.NetStatsMonitor.LineGraphConfiguration::set_LineThickness(System.Single)
+extern void LineGraphConfiguration_set_LineThickness_m52BA7977B81B4E1FE2CA9E834EF4165C48CB65DD (void);
+// 0x0000003D System.Int32 Unity.Multiplayer.Tools.NetStatsMonitor.LineGraphConfiguration::ComputeHashCode()
+extern void LineGraphConfiguration_ComputeHashCode_m1321D5854975D5C223338D3F2298842511F009E3 (void);
+// 0x0000003E System.Void Unity.Multiplayer.Tools.NetStatsMonitor.LineGraphConfiguration::.ctor()
+extern void LineGraphConfiguration__ctor_m12E9EA4057080E6CBF9A50A034018CAFCBA6BBCB (void);
+// 0x0000003F System.Collections.Generic.List`1<Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration> Unity.Multiplayer.Tools.NetStatsMonitor.NetStatsMonitorConfiguration::get_DisplayElements()
+extern void NetStatsMonitorConfiguration_get_DisplayElements_m316C8516ABE662B0FBA5ACBE89A6990A01D7346B (void);
+// 0x00000040 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.NetStatsMonitorConfiguration::set_DisplayElements(System.Collections.Generic.List`1<Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration>)
+extern void NetStatsMonitorConfiguration_set_DisplayElements_mE62716C3FB019EF3515F86DF5E15B0B4074439A6 (void);
+// 0x00000041 System.Nullable`1<System.Int32> Unity.Multiplayer.Tools.NetStatsMonitor.NetStatsMonitorConfiguration::get_ConfigurationHash()
+extern void NetStatsMonitorConfiguration_get_ConfigurationHash_m34FFD3622910A997EA38334811543E910EAE1668 (void);
+// 0x00000042 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.NetStatsMonitorConfiguration::set_ConfigurationHash(System.Nullable`1<System.Int32>)
+extern void NetStatsMonitorConfiguration_set_ConfigurationHash_mEF50C25CD74C5FB308140DAF0D34F5AAD744E8D4 (void);
+// 0x00000043 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.NetStatsMonitorConfiguration::OnConfigurationModified()
+extern void NetStatsMonitorConfiguration_OnConfigurationModified_mF940DDF128132A493AB8CADB81EBB2460BAC8AEF (void);
+// 0x00000044 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.NetStatsMonitorConfiguration::OnValidate()
+extern void NetStatsMonitorConfiguration_OnValidate_mF1D8243CE42C48CD804B386DED4B68D7245D7F7B (void);
+// 0x00000045 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.NetStatsMonitorConfiguration::RecomputeConfigurationHash()
+extern void NetStatsMonitorConfiguration_RecomputeConfigurationHash_m706D525A342DD6F196594F751C769D683B476218 (void);
+// 0x00000046 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.NetStatsMonitorConfiguration::.ctor()
+extern void NetStatsMonitorConfiguration__ctor_mC53FCF72AD4072C05FAE1A0858D461961A68553A (void);
+// 0x00000047 System.Boolean Unity.Multiplayer.Tools.NetStatsMonitor.PositionConfiguration::get_OverridePosition()
+extern void PositionConfiguration_get_OverridePosition_mFE82D187E7366B8600AAD59BF35F4CCC565FBC0B (void);
+// 0x00000048 System.Void Unity.Multiplayer.Tools.NetStatsMonitor.PositionConfiguration::set_OverridePosition(System.Boolean)
+extern void PositionConfiguration_set_OverridePosition_m8185928E955A1D1F79F2528DF975B5641E0F2F4D (void);
+// 0x00000049 System.Single Unity.Multiplayer.Tools.NetStatsMonitor.PositionConfiguration::get_PositionLeftToRight()
+extern void PositionConfiguration_get_PositionLeftToRight_mB9F81063051AAFABAE1C629D14A527B6615D6A6C (void);
+// 0x0000004A System.Void Unity.Multiplayer.Tools.NetStatsMonitor.PositionConfiguration::set_PositionLeftToRight(System.Single)
+extern void PositionConfiguration_set_PositionLeftToRight_m653425D1DF3BA96E2CE76DF1074E72434C9814FD (void);
+// 0x0000004B System.Single Unity.Multiplayer.Tools.NetStatsMonitor.PositionConfiguration::get_PositionTopToBottom()
+extern void PositionConfiguration_get_PositionTopToBottom_m4AE4BF6C48B05225E63C5EF67429A50CDCE085E9 (void);
+// 0x0000004C System.Void Unity.Multiplayer.Tools.NetStatsMonitor.PositionConfiguration::set_PositionTopToBottom(System.Single)
+extern void PositionConfiguration_set_PositionTopToBottom_mA4CB6D0E3ED52E0294643D4B8948C81DFADA28B7 (void);
+// 0x0000004D System.Void Unity.Multiplayer.Tools.NetStatsMonitor.PositionConfiguration::.ctor()
+extern void PositionConfiguration__ctor_m32DED6A9B7C4BEC76489A74C893836CC4835F202 (void);
+static Il2CppMethodPointer s_methodPointers[77] = 
+{
+	CounterConfiguration_get_SmoothingMethod_mAD9ACD4A62B454D0A7B7199322925AD13BFE5986,
+	CounterConfiguration_set_SmoothingMethod_mFC29690FFF7EEF6F7BD71C6B556C0560A2FF2513,
+	CounterConfiguration_get_AggregationMethod_mEFF50BB833704CCB82238FB60FE84AA825F13EEB,
+	CounterConfiguration_set_AggregationMethod_m03D41CD2BC4A70A80D8A30F302E73C002990FBFB,
+	CounterConfiguration_get_SignificantDigits_m5AB3A305C918CC05FFE8050D34D85FEBF0E52F74,
+	CounterConfiguration_set_SignificantDigits_mCA91F38BC0DE9A512307D089822E6B5735976DB1,
+	CounterConfiguration_get_HighlightLowerBound_m506DCF0B7F4A6F5859C2C64ED6F77F94E6745FA3,
+	CounterConfiguration_set_HighlightLowerBound_m6260DAA5D432C7B1238B8D36A0A8BFDC02655ECC,
+	CounterConfiguration_get_HighlightUpperBound_m8F282B44F158E7234DBFEC3EB02D0C5E715DA3D0,
+	CounterConfiguration_set_HighlightUpperBound_m216E4FE69B4E1BCEFCCD1B3550F0D3A16F23DFFA,
+	CounterConfiguration_get_ExponentialMovingAverageParams_m4B0D3ACB2181AA295A273C819B766FC2146EECE1,
+	CounterConfiguration_set_ExponentialMovingAverageParams_mAAC0E479E38FD6009D436C9446D9172B5CB05720,
+	CounterConfiguration_get_SimpleMovingAverageParams_mFF64C1BA984C379B67D10CE8AAF08E0B53503E8F,
+	CounterConfiguration_set_SimpleMovingAverageParams_mF650DFDDDDC691E3C5DC2736F1EF61E6B5FA569A,
+	CounterConfiguration_get_SampleCount_mB14C3FAAD133428F3D87F53993548804B2D4F689,
+	CounterConfiguration_ComputeHashCode_mC1ECF7C254DF499FACBFD9072F092606B219FFC6,
+	CounterConfiguration__ctor_m76FB9B96E07F147B59F16768CEA3D4FAF42AF838,
+	ExponentialMovingAverageParams_get_HalfLife_m0C5294064B18EC57BA21C300A7BADFFE36CB5704,
+	ExponentialMovingAverageParams_set_HalfLife_mA4D9020AF992DFAF8CDF739CEEFA7DEB8B256C96,
+	ExponentialMovingAverageParams__ctor_m385FB919E219B21A62F9FE140CFEB0A639CDAC79,
+	SimpleMovingAverageParams_get_SampleCount_mFE6B03BA04B59F730E3A5E5AF3CE99BBBAC8F6B3,
+	SimpleMovingAverageParams_set_SampleCount_m9AEC836E57B23B35B45E8C67A9A7B7ECA59BBFCD,
+	SimpleMovingAverageParams__ctor_m98CF5466467A8C9DA1D9F773944AF5E449A00815,
+	DisplayElementConfiguration_get_FieldsInitialized_m3240BA4069F366232222D8FC83BE02F52034B37A,
+	DisplayElementConfiguration_set_FieldsInitialized_m946F955ADC4D5EF62F17C636D4E48F3647757D48,
+	DisplayElementConfiguration_get_Type_mC93467629B0671750822BC0792787D02B3F75127,
+	DisplayElementConfiguration_set_Type_m106E36F629F19361113B64C813E70A8E385F6215,
+	DisplayElementConfiguration_get_Label_m8FF8F74F1E32B7F040796D32E57E366F9C665942,
+	DisplayElementConfiguration_set_Label_m41DE9A2B18AA14AAB9E26AF58A6E9E19881DC036,
+	DisplayElementConfiguration_get_Stats_mF9188A6F2E9E3FFD24B6C2E2DFBEA4D042B0678C,
+	DisplayElementConfiguration_set_Stats_m6CA42A3E370661047B89C1B06BAA9048B512B603,
+	DisplayElementConfiguration_get_CounterConfiguration_mE01D58939859B333AD21D9974ABB5C334E34291F,
+	DisplayElementConfiguration_set_CounterConfiguration_mF61C709BD87FE01731F4217A69EFC2192181EF61,
+	DisplayElementConfiguration_get_GraphConfiguration_m67AA8FDB5FA47CFDECDB176FB1B12852125942C7,
+	DisplayElementConfiguration_set_GraphConfiguration_mA92B700B31E2108D86B3F09557DDE1105DA4E0CA,
+	DisplayElementConfiguration_get_SampleCount_m8A96A629B79CC2A0C6F61AC350EC6B7123192EC2,
+	DisplayElementConfiguration_get_HalfLife_mFAF461DDAA39C681A91A11F3330254B29B6E0247,
+	DisplayElementConfiguration_get_DecayConstant_mEED35693718A9786B41E6666FDCF609898045AAF,
+	DisplayElementConfiguration_get_SerializedStats_m7CA08ABD9546BD5B5D08E50B8776BDFB9253A02B,
+	DisplayElementConfiguration_set_SerializedStats_m7069D1864B790A2B6C94BBCD430714E6CED63D5B,
+	DisplayElementConfiguration_OnBeforeSerialize_mDBCECB79D00D8BFC3F8FF5293A4F46F9DC1AFBB7,
+	DisplayElementConfiguration_OnAfterDeserialize_m5F9ED1BED2802D4473422CF8070A4AE2136946C1,
+	DisplayElementConfiguration_ComputeHashCode_m803AF21AD569DD6FEDFA245F919C20A9C3803DFB,
+	DisplayElementConfiguration__ctor_mC23B427F090A04BADFB68D79307264A1542517C1,
+	SerializedStat_get_TypeName_m5FDC9F197A8C97B3EC886DBC065C66DC168D40BB,
+	SerializedStat_set_TypeName_m5C1AC8944B115873D8C3FE9DEEE74D2FF77456DD,
+	SerializedStat_get_ValueName_m659D563C62ED661F656CD6B8BD93443C2D0DB22B,
+	SerializedStat_set_ValueName_mFDBF8BA68AE6224FEAA2E13FC107C81EBDDE359E,
+	GraphConfiguration_get_SampleCount_m8D707E154599E5C33EAE25F80C651E4F5503EEFF,
+	GraphConfiguration_set_SampleCount_m41A18A632BB119D9BC85FA2F21EDABBA40B67A27,
+	GraphConfiguration_get_VariableColors_mC1D1B3BE4B4901E8C4162BAEAFE4CD98B43FB241,
+	GraphConfiguration_set_VariableColors_m0DB78E1ED53DB725D02F0D673F1E6986B93390D5,
+	GraphConfiguration_get_XAxisType_m6619D9DF38D605918E2AFD9BDEAB62DA49773046,
+	GraphConfiguration_set_XAxisType_mAE98EE521933CD3FD162C5366DE3205AC6A0E134,
+	GraphConfiguration_get_LineGraphConfiguration_mDBDDB257B7709DF39843F1D5892F27386254F9E8,
+	GraphConfiguration_set_LineGraphConfiguration_mB1DB4A081A495BE983E1621FCE733AD5F853C75C,
+	GraphConfiguration_ComputeHashCode_mB9B1A333E3850EA09818BCB8427CA1485F7999A7,
+	GraphConfiguration__ctor_m57A3BF8B47833FD005ED71D1BD824B26105C612B,
+	LineGraphConfiguration_get_LineThickness_m6F800AFB9DF95C2F07BCA851C2A31B733573E283,
+	LineGraphConfiguration_set_LineThickness_m52BA7977B81B4E1FE2CA9E834EF4165C48CB65DD,
+	LineGraphConfiguration_ComputeHashCode_m1321D5854975D5C223338D3F2298842511F009E3,
+	LineGraphConfiguration__ctor_m12E9EA4057080E6CBF9A50A034018CAFCBA6BBCB,
+	NetStatsMonitorConfiguration_get_DisplayElements_m316C8516ABE662B0FBA5ACBE89A6990A01D7346B,
+	NetStatsMonitorConfiguration_set_DisplayElements_mE62716C3FB019EF3515F86DF5E15B0B4074439A6,
+	NetStatsMonitorConfiguration_get_ConfigurationHash_m34FFD3622910A997EA38334811543E910EAE1668,
+	NetStatsMonitorConfiguration_set_ConfigurationHash_mEF50C25CD74C5FB308140DAF0D34F5AAD744E8D4,
+	NetStatsMonitorConfiguration_OnConfigurationModified_mF940DDF128132A493AB8CADB81EBB2460BAC8AEF,
+	NetStatsMonitorConfiguration_OnValidate_mF1D8243CE42C48CD804B386DED4B68D7245D7F7B,
+	NetStatsMonitorConfiguration_RecomputeConfigurationHash_m706D525A342DD6F196594F751C769D683B476218,
+	NetStatsMonitorConfiguration__ctor_mC53FCF72AD4072C05FAE1A0858D461961A68553A,
+	PositionConfiguration_get_OverridePosition_mFE82D187E7366B8600AAD59BF35F4CCC565FBC0B,
+	PositionConfiguration_set_OverridePosition_m8185928E955A1D1F79F2528DF975B5641E0F2F4D,
+	PositionConfiguration_get_PositionLeftToRight_mB9F81063051AAFABAE1C629D14A527B6615D6A6C,
+	PositionConfiguration_set_PositionLeftToRight_m653425D1DF3BA96E2CE76DF1074E72434C9814FD,
+	PositionConfiguration_get_PositionTopToBottom_m4AE4BF6C48B05225E63C5EF67429A50CDCE085E9,
+	PositionConfiguration_set_PositionTopToBottom_mA4CB6D0E3ED52E0294643D4B8948C81DFADA28B7,
+	PositionConfiguration__ctor_m32DED6A9B7C4BEC76489A74C893836CC4835F202,
+};
+extern void SerializedStat_get_TypeName_m5FDC9F197A8C97B3EC886DBC065C66DC168D40BB_AdjustorThunk (void);
+extern void SerializedStat_set_TypeName_m5C1AC8944B115873D8C3FE9DEEE74D2FF77456DD_AdjustorThunk (void);
+extern void SerializedStat_get_ValueName_m659D563C62ED661F656CD6B8BD93443C2D0DB22B_AdjustorThunk (void);
+extern void SerializedStat_set_ValueName_mFDBF8BA68AE6224FEAA2E13FC107C81EBDDE359E_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
+{
+	{ 0x0600002D, SerializedStat_get_TypeName_m5FDC9F197A8C97B3EC886DBC065C66DC168D40BB_AdjustorThunk },
+	{ 0x0600002E, SerializedStat_set_TypeName_m5C1AC8944B115873D8C3FE9DEEE74D2FF77456DD_AdjustorThunk },
+	{ 0x0600002F, SerializedStat_get_ValueName_m659D563C62ED661F656CD6B8BD93443C2D0DB22B_AdjustorThunk },
+	{ 0x06000030, SerializedStat_set_ValueName_mFDBF8BA68AE6224FEAA2E13FC107C81EBDDE359E_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[77] = 
+{
+	12192,
+	9763,
+	12192,
+	9763,
+	12192,
+	9763,
+	12338,
+	9907,
+	12338,
+	9907,
+	12260,
+	9829,
+	12260,
+	9829,
+	12192,
+	12192,
+	12441,
+	12121,
+	9691,
+	12441,
+	12192,
+	9763,
+	12441,
+	12088,
+	9651,
+	12192,
+	9763,
+	12260,
+	9829,
+	12260,
+	9829,
+	12260,
+	9829,
+	12260,
+	9829,
+	12192,
+	11828,
+	11828,
+	12260,
+	9829,
+	12441,
+	12441,
+	12192,
+	12441,
+	12260,
+	9829,
+	12260,
+	9829,
+	12192,
+	9763,
+	12260,
+	9829,
+	12192,
+	9763,
+	12260,
+	9829,
+	12192,
+	12441,
+	12338,
+	9907,
+	12192,
+	12441,
+	12260,
+	9829,
+	11832,
+	9470,
+	12441,
+	12441,
+	12441,
+	12441,
+	12088,
+	9651,
+	12338,
+	9907,
+	12338,
+	9907,
+	12441,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Multiplayer_Tools_NetStatsMonitor_Configuration_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_Multiplayer_Tools_NetStatsMonitor_Configuration_CodeGenModule = 
+{
+	"Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll",
+	77,
+	s_methodPointers,
+	4,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
