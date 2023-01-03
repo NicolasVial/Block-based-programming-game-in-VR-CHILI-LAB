@@ -5,6 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class ToEmbeddedTopDownCodeGameMode : MonoBehaviour
 {
+
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class changes the scene to go to the embedded topdown gamemode.
+    */
+
     [SerializeField]
     private GameObject gamemodeInterface;
 

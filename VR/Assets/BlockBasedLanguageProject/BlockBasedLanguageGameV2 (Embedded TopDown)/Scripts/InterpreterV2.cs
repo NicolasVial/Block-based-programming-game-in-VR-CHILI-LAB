@@ -5,6 +5,12 @@ using UnityEngine;
 public class InterpreterV2 : MonoBehaviour
 {
 
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class interprets the blocks and execute the correct Bobi movements when the player starts the code.
+    */
+
     [SerializeField]
     private GameObject robot;
 
@@ -59,6 +65,7 @@ public class InterpreterV2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //check if the player asked to start the code, if so start executing the movements.
         if (!inMovement)
         {
             robotAnimator.ResetTrigger("Run2");
@@ -71,6 +78,7 @@ public class InterpreterV2 : MonoBehaviour
             
         }
         else
+        //execute the movements following the list of moves
         {
             robotAnimator.ResetTrigger("Stop");
             robotAnimator.SetTrigger("Run2");
@@ -94,6 +102,7 @@ public class InterpreterV2 : MonoBehaviour
                     startRot.y += 360f;
                 }
 
+                //Prepare the movement
                 switch (movementType)
                 {
                     case BlockV2.Type.MoveForward:
@@ -166,6 +175,7 @@ public class InterpreterV2 : MonoBehaviour
             }
             else
             {
+                //make the movement smooth with linear interpolation
                 if (endRot.y < 0f)
                 {
                     endRot.y += 360f;

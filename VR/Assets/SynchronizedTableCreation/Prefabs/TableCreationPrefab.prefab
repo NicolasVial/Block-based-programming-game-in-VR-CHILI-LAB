@@ -102,8 +102,10 @@ MonoBehaviour:
   secondLayerHeightOffset: 0.05
   secondLayerSizeRatio: 0.8
   minimalAreaToRespect: 1
-  tablePreviewMaterial: {fileID: 2100000, guid: 5ec968744f5b0ad4aa1c380381e65a6c, type: 2}
-  tableCompletedMaterial: {fileID: 2100000, guid: 958ec8ee0aff2704f8c4a2b3c29bb750, type: 2}
+  tablePreviewMaterial: {fileID: 2100000, guid: 5ec968744f5b0ad4aa1c380381e65a6c,
+    type: 2}
+  tableCompletedMaterial: {fileID: 2100000, guid: 958ec8ee0aff2704f8c4a2b3c29bb750,
+    type: 2}
   spawner: {fileID: 6095719809303003704}
   walls: {fileID: 3213399763097800761}
 --- !u!64 &3704179570298245355
@@ -232,7 +234,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d04ab10f21294edbaebde04dca879548, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  referencePointPrefab: {fileID: 612186391916796836, guid: 4ce90a967c07bdd498a15c7f84498618, type: 3}
+  referencePointPrefab: {fileID: 612186391916796836, guid: 4ce90a967c07bdd498a15c7f84498618,
+    type: 3}
   heightOffset: 0.05
   mTriggerInput:
     m_UseReference: 0

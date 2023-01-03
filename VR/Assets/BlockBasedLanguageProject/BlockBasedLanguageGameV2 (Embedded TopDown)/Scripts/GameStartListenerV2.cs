@@ -6,6 +6,12 @@ using UnityEngine.InputSystem;
 public class GameStartListenerV2 : MonoBehaviour
 {
 
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class is used to reset Bobi's movements and position and start it whenever a certain button is pressed.
+    */
+
     [SerializeField]
     private InputActionReference gameStartReference = null;
 
@@ -41,6 +47,7 @@ public class GameStartListenerV2 : MonoBehaviour
         start = true;
     }
 
+    //resets the position of Bobi and clear it's movement lists
     private void reset()
     {
         if (!interpreter.inMovement)

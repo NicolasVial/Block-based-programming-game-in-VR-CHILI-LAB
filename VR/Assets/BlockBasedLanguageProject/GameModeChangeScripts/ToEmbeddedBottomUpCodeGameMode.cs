@@ -5,6 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class ToEmbeddedBottomUpCodeGameMode : MonoBehaviour
 {
+
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class changes the scene to go to the embedded bottomup gamemode.
+    */
+
     [SerializeField]
     private GameObject gamemodeInterface;
 

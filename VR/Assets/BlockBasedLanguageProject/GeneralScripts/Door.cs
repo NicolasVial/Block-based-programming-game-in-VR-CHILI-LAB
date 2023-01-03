@@ -5,6 +5,12 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
 
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class represents a door in the game and is used to simulate the opening of the door.
+    */
+
     [SerializeField]
     private Vector3 startAngle;
 
@@ -41,7 +47,7 @@ public class Door : MonoBehaviour
     {
         if (start)
         {
-
+            //whenever inMovement is set to true, starts to open the door
             if (!inMovement)
             {
                 sounds.playDoorOpenSound();

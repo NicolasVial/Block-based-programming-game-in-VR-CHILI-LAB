@@ -5,6 +5,12 @@ using UnityEngine;
 public class FunctionBlockV2 : BlockV2
 {
 
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class represents a function block. It is used to concatenate movement blocks in one function. (This class is not used anymore but can be a good start to build real functions)
+    */
+
     public List<BlockV2> functionMouvements;
     public List<int> functionValues;
 
@@ -71,14 +77,6 @@ public class FunctionBlockV2 : BlockV2
 
     protected void OnTriggerExit(Collider other)
     {
-        /*
-        if (other.GetType().ToString().Equals("UnityEngine.CapsuleCollider") && other.gameObject.GetComponent<BlockV2>() != null && other.gameObject.GetComponent<BlocksInventoryItemV2>().inSlot == false && this.GetComponent<BlocksInventoryItemV2>().inSlot == false)
-        {
-            other.gameObject.transform.parent = null;
-
-            nbBlocks -= 1;
-        }
-        */
         base.OnTriggerExit(other);
     }
 }

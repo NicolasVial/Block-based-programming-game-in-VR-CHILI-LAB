@@ -6,6 +6,13 @@ using TMPro;
 
 public class BlocksInventorySlot : MonoBehaviour
 {
+
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class represents a slot of the inventory of the player.
+    */
+
     public GameObject prefab;
     public Image slotImage;
     public Color originalColor;
@@ -31,6 +38,7 @@ public class BlocksInventorySlot : MonoBehaviour
         itemInSlot.GetComponent<BlocksInventoryItem>().inSlot = true;
         itemInSlot.GetComponent<BlocksInventoryItem>().currentSlot = this;
 
+        //item in slot shouldn't react to anything but grab
         foreach (Collider c in itemInSlot.GetComponentsInChildren<Collider>())
         {
             if (!c.GetType().ToString().Equals("UnityEngine.BoxCollider") || c.gameObject.name == "mini cube")
@@ -38,14 +46,13 @@ public class BlocksInventorySlot : MonoBehaviour
                 c.enabled = false;
             }
         }
-
     }
 
     // Update is called once per frame
     void Update()
     {
+        //A new object should appear in inventory if the slot is empty and that the nb of available objects is larger than 0
         nbObj = GameObject.FindGameObjectsWithTag(tag).Length;
-
         if (nbObj < nbMax && itemInSlot == null)
         {
             addBlockToInventorySlot();
@@ -71,6 +78,7 @@ public class BlocksInventorySlot : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        //Whenever the object in inventory is grabbed, replace it by a new one if enough available
         GameObject obj = other.gameObject;
         if (isItem(obj) && obj.GetComponent<BlocksInventoryItem>().inSlot == true)
         {
@@ -108,6 +116,7 @@ public class BlocksInventorySlot : MonoBehaviour
         slotImage.color = originalColor;
     }
 
+    //This function adds a new item in the slot
     public void addBlockToInventorySlot()
     {
         itemInSlot = Instantiate(prefab, this.transform);

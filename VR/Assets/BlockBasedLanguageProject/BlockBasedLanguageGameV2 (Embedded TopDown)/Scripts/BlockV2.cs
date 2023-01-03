@@ -5,14 +5,23 @@ using System;
 
 public class BlockV2 : MonoBehaviour
 {
+
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class represents a generic block in the game.
+    */
+
     [SerializeField]
     public Type type;
 
     [SerializeField]
     public Group group;
 
+    //remember what is the block below since it's a topdown execution
     public BlockV2 blockBelow;
 
+    //remember what is the first block to know where to start the execution
     public BlockV2 firstBlock;
 
     public bool handInCube;
@@ -34,6 +43,7 @@ public class BlockV2 : MonoBehaviour
 
     protected void OnTriggerStay(Collider other)
     {
+        //when this block is below another one, link to it and become it's child
         if (other.GetType().ToString().Equals("UnityEngine.CapsuleCollider") && other.gameObject.GetComponent<BlockV2>() != null && other.gameObject.GetComponent<BlocksInventoryItem>().inSlot == false && this.GetComponent<BlocksInventoryItem>().inSlot == false && other.gameObject.GetComponent<BlockV2>().handInCube == false && this.gameObject.GetComponent<BlockV2>().handInCube == false)
         {
             if (other.gameObject.GetComponent<RepeatBlockV2>() == null && other.gameObject.GetComponent<BlockV2>().blockBelow == null && this.firstBlock == this)
@@ -45,6 +55,7 @@ public class BlockV2 : MonoBehaviour
             }
         }
 
+        //This is used to know if the hand is inside the block
         if (other.gameObject.name == "Right Base Controller")
         {
             handInCube = true;
@@ -54,6 +65,7 @@ public class BlockV2 : MonoBehaviour
 
     protected void OnTriggerExit(Collider other)
     {
+        //when this block is leaves it's parent, unlink it from the block above
         if (other.GetType().ToString().Equals("UnityEngine.CapsuleCollider") && other.gameObject.GetComponent<BlockV2>() != null && other.gameObject.GetComponent<BlocksInventoryItem>().inSlot == false && this.GetComponent<BlocksInventoryItem>().inSlot == false)
         {
             this.gameObject.transform.parent = null;
@@ -61,6 +73,7 @@ public class BlockV2 : MonoBehaviour
             firstBlock = this;
         }
 
+        //This is used to know if the hand is inside the block
         if (other.gameObject.name == "Right Base Controller")
         {
             handInCube = false;
@@ -68,51 +81,7 @@ public class BlockV2 : MonoBehaviour
     }
 
     /*
-    protected void OnTriggerStay(Collider other)
-    {     
-        if (other.gameObject.name == "Right Base Controller")
-        {
-            handInCube = true;
-        }
-    }
-
-    protected void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.name == "Right Base Controller")
-        {
-            handInCube = false;
-        }
-    }
-    */
-    /*
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.GetType().ToString().Equals("UnityEngine.CapsuleCollider")  && other.gameObject.GetComponent<BlockV2>() != null && other.gameObject.GetComponent<BlocksInventoryItemV2>().inSlot == false && this.GetComponent<BlocksInventoryItemV2>().inSlot == false && other.gameObject.GetComponent<BlockV2>().handInCube == false)
-        {
-            other.gameObject.transform.parent = this.gameObject.transform;
-            other.gameObject.transform.localPosition = new Vector3(0, -1f, 0);
-            blockBelow = other.gameObject.GetComponent<BlockV2>();
-        }
-
-        if(other.gameObject.name == "Right Base Controller")
-        {
-            handInCube = true;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {   
-        if (other.GetType().ToString().Equals("UnityEngine.CapsuleCollider") && other.gameObject.GetComponent<BlockV2>() != null && other.gameObject.GetComponent<BlocksInventoryItemV2>().inSlot == false && this.GetComponent<BlocksInventoryItemV2>().inSlot == false)
-        {
-            other.gameObject.transform.parent = null;
-            blockBelow = null;
-        }
-
-        if (other.gameObject.name == "Right Base Controller")
-        {
-            handInCube = false;
-        }
-    }
+     * The existing groups of blocks
     */
     public enum Group
     {
@@ -121,6 +90,9 @@ public class BlockV2 : MonoBehaviour
         Event,
     }
 
+    /*
+     * The existing types of blocks
+    */
     public enum Type
     {
         MoveForward,

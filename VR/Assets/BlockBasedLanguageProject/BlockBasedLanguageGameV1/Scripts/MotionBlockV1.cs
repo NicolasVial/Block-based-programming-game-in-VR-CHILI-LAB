@@ -7,6 +7,13 @@ using TMPro;
 public class MotionBlockV1 : BlockV1
 {
 
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class represents a motion block (either straight, left or right).
+    */
+
+    //motion value is used in case of a straight movement
     [SerializeField]
     public int motionValue;
 

@@ -6,6 +6,12 @@ using UnityEngine.InputSystem;
 public class ChangeGameMode : MonoBehaviour
 {
 
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class is used to open and close the menu to change the gamemode.
+    */
+
     [SerializeField]
     private InputActionReference gameModeChange = null;
 

@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class BackToLevelSelectionV3 : MonoBehaviour
 {
+
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class is used to teleport the player to the level selection and to reset the level.
+    */
+
     [SerializeField]
     private Transform LevelSelectionAnchor;
 

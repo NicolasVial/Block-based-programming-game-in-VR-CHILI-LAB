@@ -6,6 +6,12 @@ using UnityEngine.InputSystem;
 public class OpenCloseInventory : MonoBehaviour
 {
 
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class is used to open and close inventory whenever a specific button is pressed.
+    */
+
     [SerializeField]
     private InputActionReference inventoryAction = null;
 

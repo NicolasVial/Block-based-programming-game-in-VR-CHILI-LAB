@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class FinishV3 : MonoBehaviour
 {
+
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class is used to activate the "finish" actions whenever Bobi reaches the chest and then clean the blocks in the scenes.
+    */
+
     [SerializeField]
     private InterpreterV3 interpreter;
 
@@ -46,6 +53,7 @@ public class FinishV3 : MonoBehaviour
             }
             sounds.playOpenChestSound();
 
+            //clean the scene by deleting all the blocks in the scene
             BlocksInventoryItem[] allBlocks = GameObject.FindObjectsOfType<BlocksInventoryItem>();
             foreach (BlocksInventoryItem b in allBlocks)
             {

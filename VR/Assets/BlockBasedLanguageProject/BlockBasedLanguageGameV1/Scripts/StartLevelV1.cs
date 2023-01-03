@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class StartLevelV1 : MonoBehaviour
 {
+
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class is used to start the level whenever to "open door button" is pressed". It initializes Bobi's position and sets inventory parameters.
+    */
+
     [SerializeField]
     private Door door;
 

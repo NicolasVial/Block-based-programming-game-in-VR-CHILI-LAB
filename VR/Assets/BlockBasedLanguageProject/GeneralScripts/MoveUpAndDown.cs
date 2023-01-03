@@ -5,6 +5,12 @@ using UnityEngine;
 public class MoveUpAndDown : MonoBehaviour
 {
 
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class is used to move objects up and down to simulate floating.
+    */
+
     [SerializeField]
     private Vector3 startPos;
 

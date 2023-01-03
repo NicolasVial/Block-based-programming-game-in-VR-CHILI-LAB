@@ -7,6 +7,12 @@ using TMPro;
 public class NbIncrV1 : MonoBehaviour
 {
 
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class is used to increment the number of steps done by the movement block whenever the player presses the incr. button.
+    */
+
     [SerializeField]
     public MotionBlockV1 mBlock;
 

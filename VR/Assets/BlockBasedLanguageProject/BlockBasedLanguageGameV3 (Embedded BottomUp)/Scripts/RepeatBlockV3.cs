@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class RepeatBlockV3 : BlockV3
 {
+
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class represents the repeat block that repeats all the instructions inside it until Bobi reaches the chest.
+    */
+
     public List<BlockV3> functionMouvements;
     public List<int> functionValues;
 
@@ -36,6 +43,7 @@ public class RepeatBlockV3 : BlockV3
 
         if (other.gameObject.GetComponent<BlockV3>() != null && other.gameObject.GetComponent<BlocksInventoryItem>().inSlot == false && this.GetComponent<BlocksInventoryItem>().inSlot == false && other.gameObject.GetComponent<BlockV3>().handInCube == false && other.gameObject.GetComponent<BlockV3>().firstBlock == other.gameObject.GetComponent<BlockV3>())
         {
+            //deactivate the blocks when inside the repeat
             foreach (var c in other.gameObject.GetComponentsInChildren<Collider>())
             {
                 if (c.gameObject.name != "decr" && c.gameObject.name != "incr" && c != other)
@@ -105,18 +113,6 @@ public class RepeatBlockV3 : BlockV3
 
     protected void OnTriggerExit(Collider other)
     {
-        /*
-        if (other.GetType().ToString().Equals("UnityEngine.CapsuleCollider") && other.gameObject.GetComponent<BlockV3>() != null && other.gameObject.GetComponent<BlocksInventoryItem>().inSlot == false && this.GetComponent<BlocksInventoryItem>().inSlot == false)
-        {
-            this.gameObject.transform.parent = null;
-            other.gameObject.GetComponent<BlockV3>().blockAbove = null;
-            endOfRepeat.transform.localPosition = new Vector3(endOfRepeat.transform.localPosition.x, endOfRepeat.transform.localPosition.y - 1f, endOfRepeat.transform.localPosition.z);
-            b_collider.size = new Vector3(b_collider.size.x, b_collider.size.y - 1f, b_collider.size.z);
-            b_collider.center = new Vector3(b_collider.center.x, b_collider.center.y - 0.5f, b_collider.center.z);
-            c_collider.center = new Vector3(c_collider.center.x, c_collider.center.y - 1f, c_collider.center.z);
-        }
-        */
-
         if (other.gameObject.name == "Right Base Controller")
         {
             handInCube = false;

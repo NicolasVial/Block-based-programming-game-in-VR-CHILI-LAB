@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class DeleteBlock : MonoBehaviour
 {
+
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class is used to delete a blcok whenever it hits the hitbox.
+    */
+
     public GameObject hand;
 
     private void OnTriggerStay(Collider other)

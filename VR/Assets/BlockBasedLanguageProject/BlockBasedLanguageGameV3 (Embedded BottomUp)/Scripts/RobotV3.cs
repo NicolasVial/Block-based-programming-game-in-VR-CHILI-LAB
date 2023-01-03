@@ -5,6 +5,12 @@ using UnityEngine;
 public class RobotV3 : MonoBehaviour
 {
 
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class represents the robot Bobi
+    */
+
     public DIRECTION direction;
     private GameObject robot;
 
@@ -71,6 +77,7 @@ public class RobotV3 : MonoBehaviour
         }
     }
 
+    //This is the possible directions where Bobi can look at
     public enum DIRECTION
     {
         XPOS,
@@ -79,6 +86,7 @@ public class RobotV3 : MonoBehaviour
         ZNEG
     }
 
+    //Modifies the "look at" direction when turning right
     public void turnRight()
     {
         switch (direction)
@@ -101,6 +109,7 @@ public class RobotV3 : MonoBehaviour
         }
     }
 
+    //Modifies the "look at" direction when turning left
     public void turnLeft()
     {
         switch (direction)
@@ -123,6 +132,7 @@ public class RobotV3 : MonoBehaviour
         }
     }
 
+    //move Bobi from motionValue
     public Vector3 moveForward(int motionValue)
     {
         switch (direction)

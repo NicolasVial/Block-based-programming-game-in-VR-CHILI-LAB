@@ -5,6 +5,12 @@ using UnityEngine;
 public class SoundEffectsGestion : MonoBehaviour
 {
 
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class is used to play or stop the musics.
+    */
+
     [SerializeField]
     private AudioSource tutoMusic;
 

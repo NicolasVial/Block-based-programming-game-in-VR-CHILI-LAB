@@ -5,6 +5,12 @@ using UnityEngine;
 public class SelectLevelButton : MonoBehaviour
 {
 
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class represent a button to select a specific level in the game.
+    */
+
     [SerializeField]
     private LevelSelected lvlSelected;
 

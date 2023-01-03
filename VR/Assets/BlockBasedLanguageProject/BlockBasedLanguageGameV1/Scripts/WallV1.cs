@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class WallV1 : MonoBehaviour
 {
+
+    /*
+     * Author: Nicolas Vial
+     * Date: 01.01.2023
+     * Summary: This class represents a wall in the game. Whenever Bobi hits a wall, his movements are reseted and it's position as well.
+    */
+
     [SerializeField]
     private Collider robotCollider;
 
