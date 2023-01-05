@@ -1,3 +1,3 @@
 # Block-based-programming-game-in-VR-CHILI-LAB
 
-Here is the report of this project I made in the CHILI Lab at EPFL for my master semester project:
+The PDF report of my semester project at EPFL in the CHILI Lab can be found in this repo.
